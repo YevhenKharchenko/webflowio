@@ -1,0 +1,269 @@
+.pricing-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.pricing-section {
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+    padding-bottom: 112px;
+  }
+}
+
+.pricing-container {
+  @include media(desktop) {
+  }
+}
+
+.pricing-title {
+  @include media(desktop) {
+  }
+}
+
+.pricing-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.pricing-top-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #f9f9f9;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.pricing-content-wrapper {
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.pricing-subscription-wrapper {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #aeea00;
+  padding: 16px;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    padding: 24px;
+    min-width: 636px;
+    margin-bottom: 0;
+  }
+}
+
+.pricing-subscription-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #f9f9f9;
+
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.pricing-subscription-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+.pricing-subscription-list-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.pricing-subscription-square {
+  border: 1px solid #aeea00;
+  min-width: 24px;
+  height: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.pricing-subscription-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #f9f9f9;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.pricing-subscription-price {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #f9f9f9;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.pricing-subscription-span {
+  font-weight: 600;
+  font-size: 32px;
+  color: #aeea00;
+
+  @include media(desktop) {
+    font-size: 40px;
+  }
+}
+
+.pricing-list-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.pricing-list-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #f9f9f9;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.pricing-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+
+.pricing-list-item {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #3f51b5;
+  padding: 16px;
+  width: 100%;
+  max-width: 343px;
+  min-height: 107px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+
+  @include media(desktop) {
+    padding: 24px;
+    max-width: 306px;
+    min-height: 153px;
+    gap: 24px;
+
+    &:nth-child(3) {
+      max-width: 636px;
+    }
+  }
+}
+
+.pricing-list-item-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #f9f9f9;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.pricing-list-item-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #f9f9f9;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.pricing-price-span {
+  font-weight: 600;
+  font-size: 24px;
+  color: #aeea00;
+
+  @include media(desktop) {
+    font-size: 32px;
+  }
+}
+
+.pricing-bottom-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #f9f9f9;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 56px;
+  }
+}
+
+.pricing-trial-link {
+  box-shadow: 0 4px 20px 0 rgba(79, 40, 29, 0.4);
+  background: #aeea00;
+  border: 2px solid #aeea00;
+  padding: 12px 24px;
+  width: 100%;
+  max-width: 348px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding: 16px 20px;
+    font-size: 24px;
+    max-width: 286px;
+  }
+}

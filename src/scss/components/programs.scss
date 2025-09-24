@@ -1,0 +1,81 @@
+.programs-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.programs-section {
+  padding-bottom: 80px;
+
+  @include media(desktop) {
+    padding-bottom: 112px;
+  }
+}
+
+.programs-container {
+  @include media(desktop) {
+  }
+}
+
+.programs-title {
+  @include media(desktop) {
+  }
+}
+
+.programs-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.programs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+
+.programs-list-item {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #00bfa6;
+  padding: 16px;
+  width: 100%;
+  max-width: 343px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+
+  @include media(desktop) {
+    padding: 24px;
+    max-width: 416px;
+    min-height: 120px;
+  }
+}
+
+.programs-list-item-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #f9f9f9;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.programs-list-item-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #f9f9f9;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
