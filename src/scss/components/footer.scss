@@ -1,77 +1,78 @@
 .footer {
-  background: #2c2c2c;
-  border-top: 1px solid #aeea00;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  background: #121228;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   @include media(desktop) {
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
 }
 
 .footer-container {
-  padding: 0 32px;
 }
 
-.footer-email-link {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.3;
-  text-align: center;
-  color: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 12px;
+.footer-top-wrapper {
+  margin-bottom: 32px;
 
   @include media(desktop) {
-    font-size: 16px;
-    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
   }
 }
 
-.footer-nav {
-  margin-bottom: 12px;
+.footer-socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 16px;
 
   @include media(desktop) {
-    margin-bottom: 16px;
+  }
+}
+
+.footer-socials-item {
+}
+
+.footer-socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-icon {
+}
+
+.footer-nav {
+  @include media(desktop) {
   }
 }
 
 .footer-list {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  gap: 8px;
-  max-width: 311px;
-  margin-left: auto;
-  margin-right: auto;
+  gap: 16px;
 
   @include media(desktop) {
-    gap: 40px;
-    max-width: max-content;
+    flex-direction: row;
     justify-content: center;
+    gap: 74px;
   }
 }
 
 .footer-link {
   font-family: 'Manrope', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 1.5;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
   text-align: center;
-  color: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #fff;
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
-    font-size: 16px;
   }
 
   &:hover,
@@ -82,19 +83,11 @@
 .footer-text {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.3;
+  font-size: 16px;
+  line-height: 1.5;
   text-align: center;
-  color: #f9f9f9;
+  color: #fff;
 
   @include media(desktop) {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-}
-
-.footer-br {
-  @include media(desktop) {
-    display: none;
   }
 }
