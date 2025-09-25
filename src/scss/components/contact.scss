@@ -4,10 +4,12 @@
 }
 
 .contact-section {
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 
   @include media(desktop) {
-    padding-bottom: 112px;
+    padding-top: 60px;
+    padding-bottom: 180px;
   }
 }
 
@@ -16,35 +18,87 @@
   }
 }
 
-.contact-title {
+.contact-content-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+}
+
+.contact-text-wrapper {
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    width: 100%;
+    max-width: 360px;
+    margin: 0;
+  }
+}
+
+.contact-title-wrapper {
+  margin-left: 0;
+
   @include media(desktop) {
   }
 }
 
 .contact-subtitle {
+  text-align: left;
+
   @include media(desktop) {
+  }
+}
+
+.contact-start-link {
+  background: #0f8;
+  border-radius: 50px;
+  padding: 12px 28px;
+  width: 100%;
+  max-width: 343px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3e3e3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+
+  &:active,
+  &:focus {
+    background: #fff;
+    color: #3e3e3e;
+  }
+
+  @include media(desktop) {
+    max-width: max-content;
+
+    &:hover {
+      background: #fff;
+      color: #3e3e3e;
+    }
   }
 }
 
 .contact-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-bottom: 24px;
+  gap: 32px;
 
   @include media(desktop) {
-    gap: 16px;
-    margin-bottom: 32px;
+    flex-direction: row;
+    align-items: center;
   }
 }
 
 .contact-list-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 
   @include media(desktop) {
-    gap: 16px;
   }
 }
 
@@ -52,79 +106,16 @@
   min-width: 24px;
 
   @include media(desktop) {
-    min-width: 32px;
-    width: 32px;
-    height: 32px;
   }
 }
 
 .contact-item-link {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #f9f9f9;
-
-  @include media(desktop) {
-    font-size: 24px;
-  }
-}
-
-.contact-btn-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-
-  @include media(desktop) {
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 24px;
-  }
-}
-
-.contact-book-link {
-  box-shadow: 0 4px 20px 0 rgba(79, 40, 29, 0.4);
-  background: #aeea00;
-  padding: 12px 24px;
-  width: 100%;
-  max-width: 343px;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #2c2c2c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #fff;
 
   @include media(desktop) {
-    padding: 16px 20px;
-    font-size: 24px;
-    max-width: 334px;
-  }
-}
-
-.contact-talk-link {
-  backdrop-filter: blur(40px);
-  background: rgba(255, 255, 255, 0.05);
-  border: 2px solid #aeea00;
-  padding: 12px 24px;
-  width: 100%;
-  max-width: 343px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: center;
-  color: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  @include media(desktop) {
-    padding: 16px 20px;
-    font-size: 24px;
-    max-width: 234px;
   }
 }

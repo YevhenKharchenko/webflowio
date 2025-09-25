@@ -5,10 +5,10 @@
 
 .about-section {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 120px;
 
   @include media(desktop) {
-    padding-top: 120px;
+    padding-top: 160px;
     padding-bottom: 60px;
   }
 }
@@ -100,6 +100,8 @@
 
 .about-list {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 32px;
 
   @include media(desktop) {

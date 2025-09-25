@@ -5,11 +5,11 @@
 
 .process-section {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
 
   @include media(desktop) {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 160px;
   }
 }
 
