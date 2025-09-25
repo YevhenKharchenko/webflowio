@@ -36,11 +36,15 @@
 }
 
 .about-title-wrapper {
+  margin-left: 0;
+
   @include media(desktop) {
   }
 }
 
 .about-subtitle {
+  text-align: left;
+
   @include media(desktop) {
   }
 }
