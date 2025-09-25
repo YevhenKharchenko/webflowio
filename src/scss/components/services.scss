@@ -1,0 +1,129 @@
+.services-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.services-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.services-container {
+  @include media(desktop) {
+  }
+}
+
+.services-content-wrapper {
+  background: linear-gradient(
+    315deg,
+    rgba(34, 211, 238, 0.1) 0%,
+    rgba(11, 12, 26, 0.1) 100%
+  );
+  border-radius: 20px;
+  padding: 20px;
+
+  @include media(desktop) {
+  }
+}
+
+.services-text-wrapper {
+  border-radius: 16px;
+  padding: 40px 16px;
+  background-image: url(../img/services/services-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include media(desktop) {
+    background-image: url(../img/services/services-bg-desk.png);
+    padding: 40px 32px;
+  }
+}
+
+.services-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.services-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.services-list-item {
+  background: linear-gradient(
+    315deg,
+    rgba(34, 211, 238, 0.1) 0%,
+    rgba(11, 12, 26, 0.1) 100%
+  );
+  border: 1px solid #22525a;
+  border-radius: 16px;
+  padding: 10px;
+  width: 100%;
+  max-width: 271px;
+  min-height: 200px;
+
+  @include media(desktop) {
+    max-width: 360px;
+    min-height: 200px;
+  }
+}
+
+.services-list-item-wrapper {
+  background: #0b0c1a;
+  border: 1px solid #22525a;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+
+  @include media(desktop) {
+  }
+}
+
+.services-icon {
+  margin-bottom: 20px;
+}
+
+.services-list-item-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.services-list-item-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e5e7eb;
+
+  @include media(desktop) {
+  }
+}
