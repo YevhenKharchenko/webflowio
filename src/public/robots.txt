@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://webspotix.online/sitemap.xml
+Sitemap: https://webflowio.pro/sitemap.xml

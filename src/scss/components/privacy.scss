@@ -1,5 +1,5 @@
 .policy-section {
-  background: #2c2c2c;
+  background: #07071c;
   padding-top: 112px;
   padding-bottom: 32px;
 
@@ -10,59 +10,56 @@
 }
 
 .policy-main-title {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
   font-size: 28px;
-  line-height: 1.5;
-  text-align: center;
-  color: #f9f9f9;
-  margin-bottom: 24px;
+  line-height: 1.35714;
+  color: #fff;
+  margin-bottom: 40px;
 
   @include media(desktop) {
-    font-size: 48px;
-    margin-bottom: 56px;
+    font-size: 42px;
+    line-height: 1.28571;
   }
 }
 
 .policy-title {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #f9f9f9;
-  margin-bottom: 24px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 16px;
 
   @include media(desktop) {
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 1.35714;
   }
 }
 
 .policy-subtitle {
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #f9f9f9;
-  margin-bottom: 24px;
+  color: #fff;
+  margin-bottom: 16px;
 
   @include media(desktop) {
-    font-size: 24px;
   }
 }
 
 .policy-text {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #f9f9f9;
+  color: #e5e7eb;
 
   &:not(:last-child) {
-    margin-bottom: 24px;
+    margin-bottom: 32px;
   }
 
   @include media(desktop) {
-    font-size: 24px;
   }
 }
 
@@ -74,17 +71,16 @@
 .policy-item {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #f9f9f9;
+  color: #e5e7eb;
   margin-bottom: 8px;
 
   &:last-child {
-    margin-bottom: 24px;
+    margin-bottom: 32px;
   }
 
   @include media(desktop) {
-    font-size: 24px;
   }
 }
 
